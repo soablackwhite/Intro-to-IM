@@ -2,7 +2,7 @@
 The goal was to make a simulation of water ripples on a surface
 
 # Failures
-I didn't manage to make it look how I wanted, and the resources I found didn't have to do with the effect I was trying to simulate.
+I didn't manage to make it look how I wanted (something similar to what Shiffman did in his video about water ripples, but I wanted to do my own version), and the resources I found didn't have to do with the effect I was trying to simulate.
 
 # Effect 1
 Basically an on-click ripple effect that depends on where you click on the screen. It's mapped using HSV, with the hue mapped to the x coordinate, the saturation to the y coordinate, and the value fixed. Ripples go transparent as they grow larger.
