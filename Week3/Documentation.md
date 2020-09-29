@@ -2,7 +2,7 @@
 The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI.
 
 
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/imintro.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/gameCapture.gif)
 
 # The Art
 
