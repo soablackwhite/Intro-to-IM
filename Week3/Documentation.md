@@ -7,7 +7,7 @@ The project is a game that uses image recognition input from camera in a turn-by
 # The Art
 
 ### Icons
-I couldn't find same-style icons for the hand gestures I wanted, so I decided to make my owns. The icons are simply pictures of my own hands that I later pixelized and recolored on Aseprite (a pixel art software). But then the pixelization turned out to be very time consuming so I decided to stick with some light editing and coloring.
+I couldn't find same-style icons for the hand gestures I wanted, so I decided to make my own. The icons are simply pictures of my own hands that I later pixelized and recolored on Aseprite (a pixel art software). But then the pixelization turned out to be very time consuming so I decided to stick with some light editing and coloring.
 
 
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/comparison.png)
