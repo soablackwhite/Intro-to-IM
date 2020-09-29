@@ -1,19 +1,22 @@
 # Description
-The goal was to make a simulation of water ripples on a surface
+The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/introim.gif)
 
-# Failures
-I didn't manage to make it look how I wanted (something similar to what Shiffman did in his video about water ripples, but I wanted to do my own version), and the resources I found didn't have to do with the effect I was trying to simulate.
+# The Art
 
-# Effect 1
-Basically an on-click ripple effect that depends on where you click on the screen. It's mapped using HSV, with the hue mapped to the x coordinate, the saturation to the y coordinate, and the value fixed. Ripples go transparent as they grow larger.
+### Icons
+I couldn't find same-style icons for the hand gestures I wanted, so I decided to make my owns. The icons are simply pictures of my own hands that I later pixelized and recolored on Aseprite (a pixel art software). But then the pixelization turned out to be very time consuming so I decided to stick with some light editing and coloring.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/comparison.png)
+### Animations
+I made my own animations for the monster's shield and fire bending using Aseprite, but it was again very time consuming so I replaced the elementary animations with a pixel art animation package I had from last year. The animations work through a for loop on a spritesheet. The spritesheet contains every frame of the animation process, and the for loop just increments the x coordinate of the image with the frame size, which basically loops through every frame. To avoid hardcoding this, I used multiple arrays that grabbed the player's element to use as index input for loading the appropriate image, and then dividing the image size by the frame size to determine how many iterations of the for loop would be called. 
 
+# p5 & ml5
+p5 is just Processing for the web, and ml5 is one if its libraries that allows lightweight machine learning for creative purposes. You can use a pretrained model or train your own, I used a pretrained model called "Teachable Machine" which is a project by Google for accessible machine learning. I uploaded over 1000 images to Teachable Machine under different angles and positions with different light exposition to make a comprehensive dataset. Then trained the model based on my own parameters after learning a the gist of it on youtube, then linked it to my code on Processing. ml5 did the rest of the work for me, the reference and functions were easy to understand on the reference page which made my life so much easier.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/teachable.PNG)
 
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/rippleEx2.gif)
-
-# Effect 2
-Same as effect 1, this one is incomplete though and has performance issues when parameters aren't tweaked (Processing can't handle too many object instances). The effect is basically a radiating trail when dragging the mouse, based on the same HSV values as Effect 1.
-
-
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week2/rippleEx1.gif)
-
-
+# to be improved:
+- Adding healthbars to the user and the monster & just overall aesthetic tweaks to the interface
+- Diversifying the image dataset that the model is trained on to avoid overfitting
+- Sounds for animations
+- Recoding for cleaner structure, more flexibility, and less memory consumption (2D arrays)
+I really regret hardcoding the win/lose conditions. I could have easily done a 2D array to store all possible scenarios, and that could've served as input or index for other arrays that would store the images and coordinates of animations depending on the scenario. Three-hundred lines of code could've been cut to two-hundred. This will teach me to carefully plan before coding.
