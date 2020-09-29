@@ -1,5 +1,5 @@
 # Description
-The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI.
+The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI (it just uses a random function to choose between the 4 elements). There is no particular goal besides casual fun and the entertainment of seeing computer interaction from physical motion. The concept is simple and would've most likely taken much less time if I had planned the coding structure from the beginning. 
 
 
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/gameCapture.gif)
