@@ -1,5 +1,7 @@
 # Description
 The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI.
+
+
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/imintro.gif)
 
 # The Art
@@ -14,6 +16,8 @@ I made my own animations for the monster's shield and fire bending using Aseprit
 
 # p5 & ml5
 p5 is just Processing for the web, and ml5 is one if its libraries that allows lightweight machine learning for creative purposes. You can use a pretrained model or train your own, I used a pretrained model called "Teachable Machine" which is a project by Google for accessible machine learning. I uploaded over 1000 images to Teachable Machine under different angles and positions with different light exposition to make a comprehensive dataset. Then trained the model based on my own parameters after learning a the gist of it on youtube, then linked it to my code on Processing. ml5 did the rest of the work for me, the reference and functions were easy to understand on the reference page which made my life so much easier.
+
+
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/teachable.PNG)
 
 # to be improved:
