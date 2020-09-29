@@ -1,11 +1,13 @@
 # Description
 The project is a game that uses image recognition input from camera in a turn-by-turn battle against a frankly unsophisticated AI.
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/introim.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/imintro.gif)
 
 # The Art
 
 ### Icons
 I couldn't find same-style icons for the hand gestures I wanted, so I decided to make my owns. The icons are simply pictures of my own hands that I later pixelized and recolored on Aseprite (a pixel art software). But then the pixelization turned out to be very time consuming so I decided to stick with some light editing and coloring.
+
+
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week3/comparison.png)
 ### Animations
 I made my own animations for the monster's shield and fire bending using Aseprite, but it was again very time consuming so I replaced the elementary animations with a pixel art animation package I had from last year. The animations work through a for loop on a spritesheet. The spritesheet contains every frame of the animation process, and the for loop just increments the x coordinate of the image with the frame size, which basically loops through every frame. To avoid hardcoding this, I used multiple arrays that grabbed the player's element to use as index input for loading the appropriate image, and then dividing the image size by the frame size to determine how many iterations of the for loop would be called. 
