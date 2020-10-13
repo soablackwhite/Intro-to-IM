@@ -20,7 +20,7 @@ I also used Perlin noise to generate the "triggers" on the canvas that would cha
 
 Getting more specific about the image manipulation, I loaded both the canvas pixels and the image pixels, then applied the algorithm on the image's pixels, the result was very strange and not at all what I expected. This may be due to the fact that after the dampening, the value goes so low as to become pitch black.
 
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripple.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripl.gif)
 
 # Code version #2
 
@@ -28,7 +28,7 @@ Getting more specific about the image manipulation, I loaded both the canvas pix
 
 I fixed CodeVersion#1 by attributing the pixels of the image to the canvas, then making changing the colors of those pixels, however this only affects the color, but also doesn't effect the image per se but the canvas itself, it did sound like cheating when I used it but I think this might just be the actual solution after I've thought more about how Processing works and what properties can be altered. There is still the problem of altering space itself, which I haven't solved yet, but I'm looking very much forward to.
 
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripl.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripple.gif)
 
 
 # Ressources:
