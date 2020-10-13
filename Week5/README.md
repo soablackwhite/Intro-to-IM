@@ -41,6 +41,7 @@ I fixed CodeVersion#1 by attributing the pixels of the image to the canvas, then
 # Checklist & to-do:
 - ripple & image interaction DONE
 - noise generated ripples DONE
+
 The way it works now, the pixels will change color but not revert to their regular shade (the previous image pixel color) because of how the dampening works. The dampening will simply keep decreasing the value of the rgb relative to the neighbour pixels with no threshold of when to stop. I have a couple ideas of how to fix this but I will need more time.
 Cheat bugfix: changed the pixels of the canvas instead to have a ripple effect affecting color, but it doesn't affect the shape as it doesn't show distortion in space the same way it would do if the changed were applied directly to the pixels in the image.
 
