@@ -2,16 +2,16 @@
 My project produces water ripples on the surface of an image. The algorithm for the wave spread is by Hugo Elias, which was translated to Processing code by Dan Shiffman to reproduce the same effect on a grayscale canvas. My objective here was to apply this imitation of space and color distortion to images rather than just a black canvas. I (for now) haven't succeeded in achieving the desired effect in terms of spatial distortion.
 
 
-![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripl.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/ripple.gif)
 
 # Explaining the algorithm
 
 
 # Code version #1
-
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/code1.PNG)
 
 # Code version #2
-
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/code2.PNG)
 
 
 # Ressources:
