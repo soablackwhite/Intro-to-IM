@@ -5,7 +5,7 @@ My project produces water ripples on the surface of an image. The algorithm for 
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/rippple.gif)
 
 # Explaining the algorithm
-
+The canvas is a grid of pixels, each pixel is a color value, we create two arrays, one holding the color values at the current time and the second holding the color values at the previous time. To expand the ripple outward, we make each pixel's color value a function of its neighbours, then we bring it back to its original value using an exponential dampening.
 
 # Code version #1
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/Week5/code1.PNG)
