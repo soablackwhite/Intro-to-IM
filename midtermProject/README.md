@@ -4,6 +4,7 @@
 Started brainstorming for a game. Decided to do something that will help me practice my pixel art. I think I'm gonna make game that takes its mechanics from my favourite fantasy saga: Mistborn. I tried doing that last year but I was still missing some parts and had occasional bugs.
   - Whatever game I make, I know it will have collisions, so I just watched videos about it.
   - I reread the documentation about making a 2D Mario Game on Processing  http://processingjs.nihongoresources.com/test/PjsGameEngine/docs/tutorial/mario.html
+  
   ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/notes1.jpg)
   ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/notes2.jpg)
 
