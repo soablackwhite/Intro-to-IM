@@ -30,8 +30,10 @@ I've been trying to make a side scroller using a pre-made game but I don't know 
 
 ## October 21st:
 Got done with the sprites for running/jumping/pushing.
+
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/spr_sheet.gif)
 
 ## October 22nd:
 Made a cool background using processing that would suit the Mistborn theme.
+
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/ash.gif)
