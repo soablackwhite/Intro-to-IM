@@ -24,3 +24,14 @@ Nevermind, the Mistborn prototype is ugly. It feels pointless, sluggish, and it 
 Finished the sprite animations for the push mechanic & the coin throw. I still need to do the running, jumping, and pull mechanic.
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/coin_throw.gif)
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/steel_push.gif)
+
+## October 20th:
+I've been trying to make a side scroller using a pre-made game but I don't know how to "move" the screen while also moving objects. "Translate" has been very tricky, and just moving the background wouldn't affect the procedurally generated objects. I'm taking a break and working on sprites only.
+
+## October 21st:
+Got done with the sprites for running/jumping/pushing.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/spr_sheet.gif)
+
+## October 22nd:
+Made a cool background using processing that would suit the Mistborn theme.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/ash.gif)
