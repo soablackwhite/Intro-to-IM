@@ -37,3 +37,7 @@ Got done with the sprites for running/jumping/pushing.
 Made a cool background using processing that would suit the Mistborn theme.
 
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/ash.gif)
+
+## October 24th:
+Finished animation & movement code as well as the "pull/push" interaction on metal objects. Left: collision check, side scroll, game states, enemy chaser, dialogue boxes, sound & music.
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/game0.gif)
