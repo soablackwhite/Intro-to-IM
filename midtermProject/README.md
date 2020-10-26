@@ -41,3 +41,7 @@ Made a cool background using processing that would suit the Mistborn theme.
 ## October 24th:
 Finished animation & movement code as well as the "pull/push" interaction on metal objects. Left: collision check, side scroll, game states, enemy chaser, dialogue boxes, sound & music.
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/game0.gif)
+
+## October 25th:
+Spent way too long trying to code collisions, I finally figured it out by making an entirely new sketch with just squares and implementing collisions on it.
+!![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/collision.gif)
