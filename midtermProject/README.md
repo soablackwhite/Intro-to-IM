@@ -43,5 +43,9 @@ Finished animation & movement code as well as the "pull/push" interaction on met
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/game0.gif)
 
 ## October 25th:
-Spent way too long trying to code collisions, I finally figured it out by making an entirely new sketch with just squares and implementing collisions on it.
+Spent way too long trying to code collisions, I finally figured it out by making an entirely new sketch with just squares and implementing collisions in it.
+
 !![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/collision.gif)
+
+## October 26th:
+Implemented side scrolling, push/back mechanic, and created enemy chaser.
