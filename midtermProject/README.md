@@ -50,7 +50,7 @@ Spent way too long trying to code collisions, I finally figured it out by making
 ## October 26th:
 Implemented side scrolling, push/pull mechanic, and created enemy chaser. Credits to Joseph for the side scrolling. The way I had approached it was through translations (which messed with my ash flakes' angles for some reason). So I took a look at other people's repositories to see if anybody else was doing a side scroller and found out that Joseph too. So I asked him about how he approached it and he told me that a much easier, elegant, and more computation-efficient method existed: just incrementing the character's speed to objects & backgrounds to give the illusion of movement. I thought this was very counter intuitive at first, but after thinking about it I realized that it's a genius idea in the context of Processing.
 
-!![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/prototype.gif)
+![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/prototype.gif)
 
 On this day, my collisions stopped working. I decided to fix them on the 27th.
 
