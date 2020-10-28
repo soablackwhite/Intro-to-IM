@@ -61,3 +61,6 @@ The code completely bugged when I implemented "snapping" to my collisions. Eithe
 3- Pareto Law. It takes 20% of the effort to finish 80% of the work, and 80% of the effort to finish the remaining 20%. The last 20% is what makes perfectionism a bad thing. That last part is polish, and takes an incredible amount of time to get running (surprisingly). I polished each part of the game as I finished coding it without having finished the whole thing. Even realizing some of the stuff I did wouldn't be implemented in the final game (the animated drawings for push/pull have been replaced by code, for example).
 
 ![processing](https://github.com/soablackwhite/Intro-to-IM/blob/master/midtermProject/v0.9.gif)
+
+## October 28th:
+Added some text animations, lose & winning conditions, all sound effects (which I made myself). Polished the menu. The game is good to go in terms of mechanics and graphics, I just need to improve the level design. Uploading my code today.
