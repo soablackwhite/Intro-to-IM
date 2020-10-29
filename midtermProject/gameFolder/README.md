@@ -6,3 +6,5 @@ To play the game, please first do the following:
 3) Open your processing's sketchbook location (to know where that is, open processing -> file -> preferences)
 4) Paste the entire GifAnimation folder that you copied, into your library folder (under the sketchbook location)
 5) You can now open processing normally and play the game.
+
+Once you start the game, press enter for instructions.
