@@ -4,7 +4,8 @@ My program is an RGB LED controller that allows to change each of the RGB values
 Next, we hold one of the momentary switches, which will move us from the adjustment state to the color selection state. Depending on which button is pressed, we are affecting a different value of the RGB switch. Red, Green, or Blue. The value starts as 255 when there is no dimming of the photoresistor, and decreases as we dim it. Once the button is released, the value of the color is fixed and we can choose another color (or adjust the same color!). The colors are mapped to the photoresistors' minimum and maximum values set at the beginning. Thanks to the real-time adjustment of minimum and maximum values, there is no usage of the constrain function in this program.
 
 ### Schematic:
-![bohoo](https://github.com/soablackwhite/Intro-to-IM/new/master/Nov10th/schematic.png)
+
+![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov10th/schematic.png)
 
 
 ### Link to video:
