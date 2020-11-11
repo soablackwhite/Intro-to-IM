@@ -14,7 +14,7 @@ The game stops when either the player or the enemy reaches 0 health. If the play
 
 ### Schematic:
 
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov10th/schematic1.png)
+![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov3rd/schematic1.png)
 
 
 ### Link to video:
