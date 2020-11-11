@@ -12,6 +12,9 @@ The player can hold the breadboard as a controller, as the wires were knit into 
 ### Win/Lose
 The game stops when either the player or the enemy reaches 0 health. If the player wins, the RGB LED will flicker with random RGB colors. If the player loses, their LED will remain red. The player can restart the game by pressing both attack buttons at the same time.
 
+### Changes:
+Had a switch button to reset the game at first but I thought it made the breadboard too messy so I got rid of it and made the reset triggered by simultaneous button presses instead.
+
 ### Schematic:
 
 ![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov3rd/schematic1.png)
