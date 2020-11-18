@@ -5,7 +5,7 @@ This musical instrument was made specifically to play the Megalovania soundtrack
 Unfortunately it wasn't very practical (or maybe it was and I'm just bad at playing instruments) so in the code I have only used 6 of the notes. I was also trying to play with the keyboard but it wasn't working until I realized (too late!) that I needed Processing to communicate with Arduino for keyboard input. I kept playing with the Serial and made the serial input play out the whole melody.
 
 ### Schematic:
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov17th/schematic.png)
+![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov17th/schematic.jpg)
 
 
 ### Link to video:
