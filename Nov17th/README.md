@@ -10,4 +10,4 @@ Unfortunately it wasn't very practical (or maybe it was and I'm just bad at play
 
 ### Link to video:
 This is a comparison video between how I play it and how it should sound like if you're good at playing instruments.
-https://vimeo.com/477599583
+https://vimeo.com/480719888
