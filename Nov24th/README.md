@@ -3,7 +3,8 @@ tl;dr: was very cocky, and ended up late in submitting this assignment.
 I thought I could easily finish this because it made sense in my mind and completely forgot the salad that was my code and the errors that could pop up with the most simple interactions. I was wrong!
 
 ## Schematic:
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov24th/schematic.jpg)
+
+![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov24th/schematic.jpeg)
 
 ## Original Intent: multiplayer racing game:
 I intended this to be a multiplayer racing game where both players would try to get through the obstacles to the finish line without dying. I had to recode most of the stuff, but forgot the many dependencies that my in-game objects have with the main player. In short, there is no camera per se, so in order to fake the camera sidescroller effect I subtracted the player's velocity from the objects' x coordinates. But many problems arise once you have two players, some of which I have tackled, and some of which confused me to the point where I decided to switch my arduino interaction.
@@ -19,7 +20,8 @@ Headache. If the player with the highest x coordinate moves, it moves the other 
 
 ## Current state of the game:
 I added a little bird with no collisions and that doesn't belong to the player  class. The "camera" is independent of the bird, so the bird is like all other objects. It can move using the arduino buttons, while the player can move using the keyboard. This makes for a fun multiplayer game where players of different styles can enjoy the game. A casual non-serious player can pick up the bird, while the more intense, invested player can pick up the main character. The bird is essentially an additional anchor that the player could use to pull towards or push against. I frankly thing this was much better than the racing idea, and after playtesting I'm seriously considering making a real game with a similar interaction on GameMaker Studio. 
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov24th/multiplayer.gif)
+
+![game](https://github.com/soablackwhite/Intro-to-IM/blob/master/Nov24th/multiplayer.gif)
 
 
 
