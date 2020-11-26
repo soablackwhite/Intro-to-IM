@@ -1,3 +1,3 @@
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/FinalProject/final1.jpg)
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/FinalProject/final2.jpg)
-![schematic](https://github.com/soablackwhite/Intro-to-IM/blob/master/FinalProject/final3.jpg)
+![final](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/final1.jpg)
+![final](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/final2.jpg)
+![final](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/final3.jpg)
