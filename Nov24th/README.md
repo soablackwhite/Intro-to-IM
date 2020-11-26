@@ -1,4 +1,4 @@
-tl;dr: was very cocky, and ended up late in submitting this assignment.
+tl;dr: was overconfident, and ended up late in submitting this assignment.
 
 I thought I could easily finish this because it made sense in my mind and completely forgot the salad that was my code and the errors that could pop up with the most simple interactions. I was wrong!
 
