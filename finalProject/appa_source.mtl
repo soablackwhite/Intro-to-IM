@@ -1,0 +1,43 @@
+# MTL written from C:\Users\jaczk\Google Drive\avatar\cgtrader\appa_source.obj
+newmtl barna1
+Kd 0.577215 0.497535 0.404576
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+newmtl barna2
+Kd 0.313258 0.258515 0.209801
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+newmtl feher
+Kd 0.759575 0.759575 0.680334
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+newmtl has
+Kd 0.458228 0.315474 0.304657
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+newmtl orr
+Kd 0.111309 0.092686 0.0760198
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
+newmtl szem
+Kd 0.0449028 0.0274718 0.00730726
+Ns 256
+d 1
+illum 2
+Ka 0 0 0
+Ks 0.04 0.04 0.04
