@@ -1,11 +1,3 @@
-// TO DO:
-// TIME OF THE DAY LIGHT CHANGE !!!!!
-// ARDUINO FUCKING WORK !!!!
-// FUCKING MUSIC & APPA SOUNDS !!!
-// MOVE BACKGROUND!
-// collectible spheres with sound! YOU DONT FUCKING NEED IT
-
-
 //serial stuff
 import processing.serial.*;
 import processing.sound.*;

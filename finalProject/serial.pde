@@ -2,6 +2,7 @@
 
 void serialEvent(Serial myPort) {
     // get the ASCII string:
+    //delay(1000);
     String inString = myPort.readStringUntil('\n');
     if (inString != null) {
       // trim off any whitespace:
