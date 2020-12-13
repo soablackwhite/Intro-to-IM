@@ -8,6 +8,7 @@ The plan was to have an interactive 3D game, but for time restrictions now it's 
 <img src="https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/130937397_3686292951436145_6384709591448649701_n.jpg" width="300" height="400">
 
 ## Process:
+Something that really helped me during this process was that I worked on the music visualizer, terrain, and 3D model on 3 different files separately.
 
 ### Finding the model:
 I found a model online but it wasn't colored so I tried my luck for the first time on Blender to texture-color it. It turned out to be a much harder task than I thought it would be as I'm not really an artist. I sticked to basic coloring without adding the traditional arrow on Appa's body because the model didn't come with the outline for it and it would've taken me too long.
@@ -18,7 +19,9 @@ The code infrastructure was pretty much the same as the one in Shiffman's video.
 ![tricky](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/tricky1.png)
 
 ### Music Visualizer:
-Took the supershape code I wrote for previous assignments and downgraded it to 2D. Then mapped the 3 exponential variables to arbitrary frequencies. While the frequency & numbers of vertices (or smoothness) were mapped to the amplitude.
+Took the supershape code I wrote for previous assignments and downgraded it to 2D. Then mapped the 3 exponential variables to arbitrary frequencies. While the frequency & numbers of vertices (or smoothness) were mapped to the amplitude. The hard part was making something sort of visually pleasing, and mapping to frequencies without digging into complexities.
+
+![audioviz](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/audioviz.gif)
 
 ### Camera & movement: (most time consuming)
 To explain camera, I'll first start with movement:
