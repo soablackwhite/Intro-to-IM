@@ -13,15 +13,23 @@ Something that really helped me during this process was that I worked on the mus
 ### Finding the model:
 I found a model online but it wasn't colored so I tried my luck for the first time on Blender to texture-color it. It turned out to be a much harder task than I thought it would be as I'm not really an artist. I sticked to basic coloring without adding the traditional arrow on Appa's body because the model didn't come with the outline for it and it would've taken me too long.
 
+
+![model](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/model.gif)
+
+
 ### Generating textured terrain:
 The code infrastructure was pretty much the same as the one in Shiffman's video. But I had to adjust parameters in order to get smooth dune surfaces, as the original code was mostly for mountain ranges with rough edges and straight lines. Texturing was something tricky when you consider how the terrain is generated. The terrain is a mesh of triangle strips on a rotated plane, with z coordinates mapped to perlin noise to generate a natural randomness effect. Now texturing doesn't work on triangles but on squares, with each of the four vertices corresponding to the top left, top right, bottom left, & bottom right corners of the image. The way I dealt with that was that for iterations of the for loop that were odd, the two triangle vertices would be assigned to bottom right & top right image vertices, while even iterations would be assigned to bottom left & top left vertices. To minimize "if" statements I took advantage of the fact that top right and bottom left just meant that in normalized coordinates the x & y were the same (1,1 and 0,0 respectively) and top left and bottom right were different (0,1 and 1,0 respectively).
 
+
 ![tricky](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/tricky1.png)
+
 
 ### Music Visualizer:
 Took the supershape code I wrote for previous assignments and downgraded it to 2D. Then mapped the 3 exponential variables to arbitrary frequencies. While the frequency & numbers of vertices (or smoothness) were mapped to the amplitude. The hard part was making something sort of visually pleasing, and mapping to frequencies without digging into complexities.
 
+
 ![audioviz](https://github.com/soablackwhite/Intro-to-IM/blob/master/finalProject/audioviz.gif)
+
 
 ### Camera & movement: (most time consuming)
 To explain camera, I'll first start with movement:
