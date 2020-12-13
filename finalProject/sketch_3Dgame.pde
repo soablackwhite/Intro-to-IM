@@ -35,7 +35,7 @@ PShape appaModel;
 
 //grid
 int cols, rows;
-int scl = 45;
+int scl = 35;
 int w = 4500;
 int h = 3600;
 float[][] terrain;
